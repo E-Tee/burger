@@ -181,7 +181,7 @@ transition-duration: 0.25s;
         line-height: 32px;
         text-decoration: none;
         transition-duration: 0.25s;
-        background-image: url('../меню/img/Arrow\ right.svg');
+        background-image: url('../img/Arrow\ right.svg');
         background-repeat: no-repeat;
         background-position: 250px center;
       }
@@ -189,7 +189,7 @@ transition-duration: 0.25s;
       .submenu__item  {
         list-style: none;
         margin-bottom: 20px;
-        background-image: url('../меню/img/Arrow\ right.svg');
+        background-image: url('../img/Arrow\ right.svg');
         background-repeat: no-repeat;
         background-position: 240px center;
       }
@@ -250,7 +250,7 @@ transition-duration: 0.25s;
   margin-top: 90px;
   border: none;
   background-color: transparent;
-  background-image: url('../меню/img/Arrow\ left.svg');
+  background-image: url('../img/Arrow\ left.svg');
   background-size: 16px 16px;
   background-position: center center;
   background-repeat: no-repeat;
@@ -286,7 +286,7 @@ input[type="checkbox"] {
 
 /* Создать кастомный вид чекбокса */
 input[type="checkbox"] + label::before {
-  content: url('../меню/img/icon_16x16_M_Arrow-bottom.svg'); /* Вывести символ "V" */
+  content: url('../img/icon_16x16_M_Arrow-bottom.svg'); /* Вывести символ "V" */
   position: relative;
   right: 180px;
   display: inline-block;
@@ -301,7 +301,7 @@ input[type="checkbox"] + label::before {
 
 /* Стили для отмеченного чекбокса */
 input[type="checkbox"]:checked + label::before {
-content:   url('../меню/img/icon_16x16_M_Arrow-bottom.svg'); /* Вывести символ "V" */
+content:   url('../img/icon_16x16_M_Arrow-bottom.svg'); /* Вывести символ "V" */
 color: #1D7DED;
 
 }
